@@ -1,5 +1,39 @@
-main {
-  text-align: center;
-  vertical-align: center;
-  line-height: 100vh
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-container {
+  width: 70%;
+  display: flex
+  flex-wrap: wrap;
+}
+
+button {
+  width: 25%;
+  height: 40px;
+  border-radius: 25px;
+  margin: 10px 0 0 0;
+  background-color: black;
+  color: white;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.inserted {
+  display: flex;
+  justify-content: end;
+  width: 70%;
+  padding: 0 20px 0 0;
 }
